@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace CustomListProject
 {
-    class CustomList
+    public class CustomList
     {
+        //no list
+
+
     }
 }
