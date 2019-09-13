@@ -40,7 +40,12 @@ namespace CustomListTests
             CustomList<int> testList = new CustomList<int>();
             int expectedResult = 5;
 
-            testList.add(2);
+            testList.Add(10000);
+            testList.Add(10000);
+            testList.Add(10000);
+            testList.Add(10000);
+            testList.Add(10000);
+         
 
             Assert.AreEqual(expectedResult, testList.Count);
         }
@@ -50,8 +55,16 @@ namespace CustomListTests
             int expectedResult = 9;
 
             testList.add(2);
+            testList.add(2);
+            testList.add(2);
+            testList.add(2);
+            testList.add(2);
+            testList.add(2);
+            testList.add(2);
+            testList.add(2);
+            testList.add(2);
 
-            Assert.AreEqual(expectedResult, testList.count);
+            Assert.AreEqual(expectedResult, testList.Count);
         }
             
 
